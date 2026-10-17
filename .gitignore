@@ -1,0 +1,16 @@
+# editor / OS noise
+*.asv
+*.m~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Octave workspace dumps
+octave-workspace
+
+# results intermediates: per-frame PNGs are regenerable;
+# the final figures, GIF and run_summary.json are committed
+docs/results/frames/
+
+# local working files (PR body etc.)
+pr_body.md
