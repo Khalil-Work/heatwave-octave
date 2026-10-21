@@ -161,7 +161,7 @@ All numbers below come from the committed verification suite and
 
 ## 🔑 License
 
-MIT — see [LICENSE](LICENSE), Copyright (c) 2026 MOHAMMED AHMED.
+MIT — see [LICENSE](LICENSE), Copyright (c) 2026 KHALIL.
 
 ## 📚 References (by title)
 
