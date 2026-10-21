@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.svg" alt="Heatwave banner: decaying temperature snapshots of the sine solution on deep cyan" width="100%">
+<img src="docs/banner.png" alt="Heatwave banner: decaying temperature snapshots of the sine solution on deep cyan" width="100%">
 
 # 🌊 Heatwave
 
@@ -60,9 +60,9 @@ solution) in [docs/model.md](docs/model.md); function signatures in
 
 ```mermaid
 flowchart LR
-    A[u at time n] --> B{r = alpha dt/dx²<br/>≤ 1/2 ?}
+    A[u at time n] --> B{"r = alpha dt/dx²<br/>≤ 1/2 ?"}
     B -- no --> X[❌ heatwave:unstableStep<br/>error, no clipping]
-    B -- yes --> C[u_new = u + r(u_E − 2u + u_W)]
+    B -- yes --> C["u_new = u + r(u_E − 2u + u_W)"]
     C --> D[apply Dirichlet ends<br/>or Neumann ghost cells]
     D --> E[✅ advance]
 ```
