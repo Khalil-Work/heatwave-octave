@@ -10,13 +10,13 @@
 decaying sine solution with measured convergence orders — plus an implicit scheme
 that keeps working at time steps 32× beyond the explicit stability limit.**
 
-[![tests](https://github.com/khalil-official/heatwave-octave/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-official/heatwave-octave/actions/workflows/ci.yml)
+[![tests](https://github.com/khalil-work/heatwave-octave/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-work/heatwave-octave/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![language](https://img.shields.io/badge/language-Octave%20%2F%20MATLAB-07890a.svg)](src)
 [![tests](https://img.shields.io/badge/tests-9%2F9%20passing-brightgreen.svg)](tests)
 [![order](https://img.shields.io/badge/measured%20orders-1.989%20%2F%201.000-orange.svg)](docs/verification.md)
-[![repo stars](https://img.shields.io/github/stars/khalil-official/heatwave-octave?style=flat&color=yellow)](https://github.com/khalil-official/heatwave-octave/stargazers)
-[![last commit](https://img.shields.io/github/last-commit/khalil-official/heatwave-octave?color=9cf)](https://github.com/khalil-official/heatwave-octave/commits)
+[![repo stars](https://img.shields.io/github/stars/khalil-work/heatwave-octave?style=flat&color=yellow)](https://github.com/khalil-work/heatwave-octave/stargazers)
+[![last commit](https://img.shields.io/github/last-commit/khalil-work/heatwave-octave?color=9cf)](https://github.com/khalil-work/heatwave-octave/commits)
 
 [Quick start](#-quick-start) · [Model](#-model-summary) · [Animation](#%EF%B8%8F-results-gallery) · [Measured results](#-measured-results-gnu-octave-1130) · [References](#-references-by-title)
 
