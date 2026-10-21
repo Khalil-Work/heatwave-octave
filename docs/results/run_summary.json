@@ -1,0 +1,78 @@
+{
+  "runtime_name": "GNU Octave",
+  "runtime_version": "11.3.0",
+  "generated_localtime": "2026-10-18 07:22:14",
+  "graphics": "gnuplot toolkit, visible off, print -dpng",
+  "gif_assembly": "per-frame PNG export by Octave, assembled with tools/make_gif.py (Python Pillow)",
+  "case_A": {
+    "nx": 120,
+    "nSteps": 16000,
+    "dt": 0.00003125,
+    "r": 0.45,
+    "tFinal": 0.5,
+    "frames_stored": 62,
+    "max_error_final_time": 0.000003445737042662503
+  },
+  "convergence_dx": {
+    "nx": [
+      10,
+      20,
+      40,
+      80,
+      160
+    ],
+    "dx": [
+      0.1,
+      0.05,
+      0.025,
+      0.0125,
+      0.00625
+    ],
+    "nSteps": [
+      23,
+      89,
+      356,
+      1423,
+      5689
+    ],
+    "max_error": [
+      0.0049425498237206659,
+      0.0012883864952774605,
+      0.00032113370727782087,
+      0.00008031314420198221,
+      0.000020091357937179756
+    ],
+    "measured_order": 1.9888858757386896,
+    "method": "fixed r near 0.45, analytic reference, tFinal=0.1"
+  },
+  "convergence_dt": {
+    "nx": 200,
+    "dt": [
+      0.0000125,
+      0.00000625,
+      0.000003125,
+      0.0000015625
+    ],
+    "self_convergence_error": [
+      0.000009292530436022517,
+      0.0000046460316469598698,
+      0.000002322957434075512,
+      0.0000011614641199919618
+    ],
+    "measured_order": 1.0000417026916695,
+    "method": "max|U(dt)-U(dt/2)| at fixed nx=200, tFinal=0.05"
+  },
+  "implicit_large_dt": {
+    "nx": 40,
+    "dt": 0.01,
+    "r": 15.999999999999997,
+    "ftcs_limit_dt": 0.00031250000000000006,
+    "max_error_vs_analytic": 0.01344144039763659
+  },
+  "neumann_mean_conservation": {
+    "scheme": "ftcs",
+    "nx": 60,
+    "nSteps": 4000,
+    "mean_drift": 1.3322676295501879e-15
+  }
+}
