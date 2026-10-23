@@ -18,7 +18,7 @@ that keeps working at time steps 32× beyond the explicit stability limit.**
 [![repo stars](https://img.shields.io/github/stars/khalil-work/heatwave-octave?style=flat&color=yellow)](https://github.com/khalil-work/heatwave-octave/stargazers)
 [![last commit](https://img.shields.io/github/last-commit/khalil-work/heatwave-octave?color=9cf)](https://github.com/khalil-work/heatwave-octave/commits)
 
-[Quick start](#-quick-start) · [Model](#-model-summary) · [Animation](#%EF%B8%8F-results-gallery) · [Measured results](#-measured-results-gnu-octave-1130) · [References](#-references-by-title)
+[Homepage](https://khalil-work.github.io) · [Quick start](#-quick-start) · [Model](#-model-summary) · [Animation](#%EF%B8%8F-results-gallery) · [Measured results](#-measured-results-gnu-octave-1130) · [References](#-references-by-title)
 
 </div>
 
